@@ -659,7 +659,7 @@ font-size: .8rem;
         }
 
         .logo-section img {
-            width: 350px;
+            width: 380px;
             max-width: 90%;
         }
 
@@ -753,13 +753,20 @@ font-size: .8rem;
         .tree-text{
           color: white;
           padding: 20px;
-          font-size: .9rem;
+          font-size: .8rem;
           text-align: center;
           margin-top: 50px;
         }
         #loc{
           font-size: .7rem;
         }
+
+        #result{
+    margin-top:10px;
+    text-align:center;
+    font-size:14px;
+    color:green;
+}
 
   
   

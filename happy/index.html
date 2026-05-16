@@ -106,7 +106,7 @@
                <p>
             Blueberry Family Salon
             <br/>
-            Beauty • Confidence • Care            </p>
+            Glow • Groom • Repeat            </p>
         </div>
     </div>
 
@@ -220,19 +220,38 @@
           <h3 class="section-title text-uppercase">Make an Enquiry</h3>
         </div>
 
-<form action="https://formsubmit.co/blueberrysalon84@gmail.com" method="POST" class="enquiry-form">
 
-    <!-- <h2>Make an Enquiry</h2> -->
 
-    <input type="text" name="name" placeholder="Your Name" required>
+<form id="enquiry-form" class="enquiry-form">
 
-    <input type="email" name="email" placeholder="Your Email" required>
+  <input type="hidden" name="access_key" value="0115dc93-41a4-45bd-a144-3be3e2534e98">
 
-    <textarea name="message" placeholder="Your Message" rows="5"></textarea>
+  <input 
+      type="text" 
+      name="name" 
+      placeholder="Your Name"
+      required>
 
-    <button type="submit">Send Message</button>
+  <input 
+      type="tel" 
+      name="phone" 
+      placeholder="Phone Number"
+      required
+      pattern="[0-9]{10}"
+      maxlength="10"
+      inputmode="numeric"
+      title="Please enter a valid 10-digit phone number">
+
+  <textarea 
+      name="message" 
+      placeholder="Your Message"
+      required></textarea>
+
+  <button type="submit">Submit</button>
 
 </form>
+
+<p id="result"></p>
 
       </div>
     </div>
